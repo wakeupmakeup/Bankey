@@ -7,19 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3BFA201A29360CC300B7CFA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFA201929360CC300B7CFA1 /* AppDelegate.swift */; };
-		3BFA201E29360CC300B7CFA1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFA201D29360CC300B7CFA1 /* ViewController.swift */; };
+		3BFA201E29360CC300B7CFA1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFA201D29360CC300B7CFA1 /* LoginViewController.swift */; };
 		3BFA202329360CC400B7CFA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BFA202229360CC400B7CFA1 /* Assets.xcassets */; };
 		3BFA202629360CC400B7CFA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BFA202429360CC400B7CFA1 /* LaunchScreen.storyboard */; };
+		3BFA2035293627B100B7CFA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFA2034293627B100B7CFA1 /* AppDelegate.swift */; };
+		3BFA203A2936293B00B7CFA1 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFA20392936293B00B7CFA1 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3BFA201629360CC300B7CFA1 /* Bankey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bankey.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3BFA201929360CC300B7CFA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3BFA201D29360CC300B7CFA1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3BFA201D29360CC300B7CFA1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		3BFA202229360CC400B7CFA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BFA202529360CC400B7CFA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3BFA202729360CC400B7CFA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BFA2034293627B100B7CFA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3BFA20392936293B00B7CFA1 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,13 +54,30 @@
 		3BFA201829360CC300B7CFA1 /* Bankey */ = {
 			isa = PBXGroup;
 			children = (
-				3BFA201929360CC300B7CFA1 /* AppDelegate.swift */,
-				3BFA201D29360CC300B7CFA1 /* ViewController.swift */,
+				3BFA20382936289E00B7CFA1 /* Login */,
+				3BFA20372936289B00B7CFA1 /* Files */,
+				3BFA2034293627B100B7CFA1 /* AppDelegate.swift */,
+			);
+			path = Bankey;
+			sourceTree = "<group>";
+		};
+		3BFA20372936289B00B7CFA1 /* Files */ = {
+			isa = PBXGroup;
+			children = (
 				3BFA202229360CC400B7CFA1 /* Assets.xcassets */,
 				3BFA202429360CC400B7CFA1 /* LaunchScreen.storyboard */,
 				3BFA202729360CC400B7CFA1 /* Info.plist */,
 			);
-			path = Bankey;
+			name = Files;
+			sourceTree = "<group>";
+		};
+		3BFA20382936289E00B7CFA1 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				3BFA201D29360CC300B7CFA1 /* LoginViewController.swift */,
+				3BFA20392936293B00B7CFA1 /* LoginView.swift */,
+			);
+			name = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,8 +150,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BFA201E29360CC300B7CFA1 /* ViewController.swift in Sources */,
-				3BFA201A29360CC300B7CFA1 /* AppDelegate.swift in Sources */,
+				3BFA2035293627B100B7CFA1 /* AppDelegate.swift in Sources */,
+				3BFA203A2936293B00B7CFA1 /* LoginView.swift in Sources */,
+				3BFA201E29360CC300B7CFA1 /* LoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
